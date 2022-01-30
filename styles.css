@@ -1,0 +1,134 @@
+		*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.elfondo {
+	background-image: url("img/FondoTanat.jpg");
+	background-repeat: no-repeat;
+	background-size:cover ;
+    background-position-x:center;
+ 	background-position-y:center;
+ 	overflow: scroll;
+ 	background-attachment: fixed;
+	
+}
+
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 50px 1000px;
+	margin: 30px 40px;
+	background: #444;
+	text-align: center;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 150px;
+	color: #fff;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+.slider {
+	width: 100%;
+	margin: 10px 0px;
+	overflow: hidden;
+}
+.slider ul {
+	
+	display: flex;
+	padding: 0;
+	width: 200%;
+	animation: cambio 15s infinite;
+	
+}
+.slider li {
+	width: 70%;
+	list-style: none;
+}
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio{
+
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left:-100%;}
+	45%%{margin-left: -100%;}
+
+ 	50%%{margin-left: -200%;}
+ 	70%%{margin-left: -200%;}
+
+ 	75%%{margin-left: -200%;}
+ 	100%%{margin-left: -200%;}
+
+}
+
+#titulo {
+	margin: 20px 0px 0px 0px;
+}
+#boxCorreo{
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	margin: 0;	
+}
+boxCorreo  p{
+	width: 0px 0px 0px 230px;
+}
+#correo{
+	margin: 23px 0px 0px 100px;
+		
+}
+#ig{
+	margin: 10px 0px 0px 100px;
+}
+#fb{
+	margin: 10px 0px 0px 100px;
+}
