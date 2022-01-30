@@ -1,4 +1,58 @@
-		*{
+@media screen and (max-widht: 480px){
+Header{
+	Height:50px;
+	Padding :0;
+}
+Nav a {
+	Width :100%;
+}
+	navegacion{
+	width: 50px 200px;
+	margin: 30px 40px;
+	background: #444;
+	text-align: center;
+}
+boxCorreo  p{
+	width: 0px 0px 0px 230px;
+	padding: 0px 0px 600px 0px;
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 10px;
+	color: #fff;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-decoration: none;
+}
+}
+/* width de 600 px */
+@media screen and (max-widht: 900px){
+Header{
+	Height:50px;
+	Padding :0;
+}
+Nav a {
+	Width :100%;
+}
+	navegacion{
+	width: 50px 200px;
+	margin: 30px 40px;
+	background: #444;
+	text-align: center;
+}
+boxCorreo  p{
+	width: 0px 0px 0px 230px;
+	padding: 0px 0px 600px 0px;
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 50px;
+	color: #fff;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-decoration: none;
+}
+}
+/* aca termina el max widht */
+*{
 	margin: 0;
 	padding: 0;
 	-webkit-box-sizing: border-box;
@@ -123,12 +177,17 @@ boxCorreo  p{
 	width: 0px 0px 0px 230px;
 }
 #correo{
-	margin: 23px 0px 0px 100px;
-		
+	margin: 23px 6% 0px 50px;
+	border: solid 1px white;
+	border: solid 1px white;
+	background-color: blue;
+	padding: 10px 0px;
 }
 #ig{
-	margin: 10px 0px 0px 100px;
+	margin: 10px 0px 0px 50px;
+	color: wheat;
 }
 #fb{
 	margin: 10px 0px 0px 100px;
+	color: wheat;
 }
